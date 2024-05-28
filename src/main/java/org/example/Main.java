@@ -67,5 +67,10 @@ public class Main {
         System.out.println(Arrays.toString(fails));
         System.out.println("-------------------배열 5_5_6 실패율 End------------------");
 
+        System.out.println("-------------------배열 5_5_7 방문 길이 Start------------------");
+        String dirs = "ULURRDLLU";
+        System.out.println(Array5_5_7.solution(dirs));
+        System.out.println("-------------------배열 5_5_7 방문 길이 End------------------");
+
     }
 }
