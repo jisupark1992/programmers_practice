@@ -16,8 +16,6 @@ public class Array5_5_3 {
     // 1. 배열에서 두 수를 선택하는 모든 경우의 수를 구한다.
     // 2. 과정 1에서 구한 수를 새로운 배열에 저장하고 중복값을 제거한다.
     // 3. 배열을 오름차순으로 정렬하고 반환한다.
-
-    // sort 사용
     public static int[] solution(int[] numbers) {
         int[] clone = numbers.clone();
         HashSet<Integer> set = new HashSet<>(); // 1. 중복값 제거를 위한 해쉬셋 생성
