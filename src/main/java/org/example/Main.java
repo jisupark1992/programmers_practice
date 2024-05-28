@@ -61,5 +61,11 @@ public class Main {
         System.out.println(Arrays.deepToString(mulArr));
         System.out.println("-------------------배열 5_5_5 행렬의 곱셈 End------------------");
 
+        System.out.println("-------------------배열 5_5_6 실패율 Start------------------");
+        int[] stages = {2, 1, 2, 6, 2, 4, 3, 3};
+        int[] fails = Array5_5_6.solution(5, stages);
+        System.out.println(Arrays.toString(fails));
+        System.out.println("-------------------배열 5_5_6 실패율 End------------------");
+
     }
 }
