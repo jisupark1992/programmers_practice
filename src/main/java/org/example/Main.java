@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.array.*;
+
 import java.util.Arrays;
 
 public class Main {

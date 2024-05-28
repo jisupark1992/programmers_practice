@@ -1,4 +1,4 @@
-package org.example;
+package org.example.array;
 
 public class Array5_5_5 {
 
