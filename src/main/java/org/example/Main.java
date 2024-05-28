@@ -54,5 +54,12 @@ public class Main {
         System.out.println(Arrays.toString(rank));
         System.out.println("-------------------배열 5_5_4 수포자들의 찍기 순위 End------------------");
 
+        System.out.println("-------------------배열 5_5_5 행렬의 곱셈 Start------------------");
+        int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
+        int[][] arr2 = {{5, 4, 3}, {2, 4, 1}, {3, 1, 1}};
+        int[][] mulArr = Array5_5_5.solution(arr1, arr2);
+        System.out.println(Arrays.deepToString(mulArr));
+        System.out.println("-------------------배열 5_5_5 행렬의 곱셈 End------------------");
+
     }
 }
