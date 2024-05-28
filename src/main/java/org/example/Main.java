@@ -48,5 +48,11 @@ public class Main {
         System.out.println(Arrays.toString(numbers));
         System.out.println("-------------------배열 5_5_3 두 개 뽑아서 더하기 End------------------");
 
+        System.out.println("-------------------배열 5_5_4 수포자들의 찍기 순위 Start------------------");
+        int[] answers = {1, 3, 2, 4, 2};
+        int[] rank = Array5_5_4.solution(answers);
+        System.out.println(Arrays.toString(rank));
+        System.out.println("-------------------배열 5_5_4 수포자들의 찍기 순위 End------------------");
+
     }
 }
