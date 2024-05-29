@@ -33,5 +33,10 @@ public class StackMain {
         int[] moves = {1, 5, 3, 5, 1, 2, 1, 4};
         System.out.println("결과 : " + 크레인_인형_뽑기_게임.solution(board, moves));
         System.out.println("--------------------스택 6_4_13 크레인 인형 뽑기 게임 End--------------------");
+        System.out.println("--------------------스택 6_4_14 표 편집 Start--------------------");
+        int n = 8, k = 2;
+        String[] cmd = {"D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"};
+        System.out.println("결과 : " + 표_편집.solution(n, k, cmd));
+        System.out.println("--------------------스택 6_4_14 표 편집 End--------------------");
     }
 }
