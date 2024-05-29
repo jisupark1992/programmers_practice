@@ -12,8 +12,11 @@ public class 요세푸스_문제 {
     *
     *   - 제약 조건
     *   1. N과 K는 1이상 1000이하의 자연수입니다.
+    *
+    *   - 시간 복잡도 분석
+    *   N은 전체 사람 수 K는 제거된 사람의 번호입니다. K - 1번 poll하고 1번 add하는 동작을 N번 반복하므로 쵲오 시간 복잡도는 O(N * K)입니다.
     */
-    public static int solution(int N, int K) throws NullPointerException {
+    public static int solution(int N, int K) {
         // 1. 1부터 N까지의 번호를 deque에 추가
         ArrayDeque<Integer> deque = new ArrayDeque<>();
         for (int i = 1; i <= N; i++) {
