@@ -1,4 +1,4 @@
-package org.example.array;
+package org.codingtest.array;
 
 public class 행렬의_곱셈 {
 
