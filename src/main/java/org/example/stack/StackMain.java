@@ -1,5 +1,7 @@
 package org.example.stack;
 
+import java.util.Arrays;
+
 public class StackMain {
     public static void main(String[] args) {
         System.out.println("--------------------스택 6_3_8 올바른 괄호 Start--------------------");
@@ -22,5 +24,9 @@ public class StackMain {
         s = "baabaa";
         System.out.println("입력 값 : " + s + ", 결과 : " + 짝지어_제거하기.solution(s));
         System.out.println("--------------------스택 6_4_11 짝지어 제거하기 End--------------------");
+        System.out.println("--------------------스택 6_4_12 주식 가격 Start--------------------");
+        int[] prices = {1, 2, 3, 2, 3};
+        System.out.println("결과 : " + Arrays.toString(주식_가격.solution(prices)));
+        System.out.println("--------------------스택 6_4_12 주식 가격 End--------------------");
     }
 }
