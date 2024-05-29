@@ -1,6 +1,6 @@
 package org.example.array;
 
-public class Array5_5_5 {
+public class 행렬의_곱셈 {
 
     /*  2차원 행렬 arr1과 arr2를 입력받아 arr1에 arr2를 곱한 결과를 반환하는 solution() 함수를 완성하세요.
     *

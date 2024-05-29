@@ -2,7 +2,7 @@ package org.example.array;
 
 import java.util.HashMap;
 
-public class Array5_5_6 {
+public class 실패율 {
 
     /*  슈퍼 게임 개발자 오렐리는 큰 고민에 빠졌다. 그녀가 만든 프랜즈 오천성이 대성공을 거뒀지만,
     *   요즘 신규 사용자의 수가 급감한 것이다. 원인은 신규 사용자와 기존 사용자 사이에 스테이지 차이가 너무 큰 것이 문제였다.

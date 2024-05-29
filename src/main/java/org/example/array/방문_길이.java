@@ -3,7 +3,7 @@ package org.example.array;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Array5_5_7 {
+public class 방문_길이 {
 
     /*
     *   방문 길이
