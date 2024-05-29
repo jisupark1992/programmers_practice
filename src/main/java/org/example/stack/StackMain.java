@@ -28,5 +28,10 @@ public class StackMain {
         int[] prices = {1, 2, 3, 2, 3};
         System.out.println("결과 : " + Arrays.toString(주식_가격.solution(prices)));
         System.out.println("--------------------스택 6_4_12 주식 가격 End--------------------");
+        System.out.println("--------------------스택 6_4_13 크레인 인형 뽑기 게임 Start--------------------");
+        int[][] board = {{0, 0, 0, 0}, {0, 0, 1, 3}, {0, 2, 5, 0, 1}, {4, 2, 4, 4, 2}, {3, 5, 1, 3, 1}};
+        int[] moves = {1, 5, 3, 5, 1, 2, 1, 4};
+        System.out.println("결과 : " + 크레인_인형_뽑기_게임.solution(board, moves));
+        System.out.println("--------------------스택 6_4_13 크레인 인형 뽑기 게임 End--------------------");
     }
 }
