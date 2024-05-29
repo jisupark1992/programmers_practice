@@ -2,7 +2,7 @@ package org.example.array;
 
 import java.util.Arrays;
 
-public class Array5_4_1 {
+public class 배열_정렬하기 {
 
     /*  정수 배열을 정렬해서 반환하는 solution() 함수를 완성하세요
     *
