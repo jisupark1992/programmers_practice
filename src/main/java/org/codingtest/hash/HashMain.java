@@ -1,5 +1,7 @@
 package org.codingtest.hash;
 
+import java.util.Arrays;
+
 public class HashMain {
     public static void main(String[] args) {
         System.out.println("--------------------해시 8_4_18 두 개의 수로 특정값 만들기 Start--------------------");
@@ -18,5 +20,9 @@ public class HashMain {
         int[] number = {3, 2, 2, 2, 1};
         System.out.println("결과 : " + 할인_행사.solution(want, number, discount));
         System.out.println("--------------------해시 8_5_20 할인 행사 End--------------------");
+        System.out.println("--------------------해시 8_5_21 오픈 채팅방 Start--------------------");
+        String[] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"};
+        System.out.println("결과 : " + Arrays.toString(오픈_채팅방.solution(record)));
+        System.out.println("--------------------해시 8_5_21 오픈 채팅방 End--------------------");
     }
 }
