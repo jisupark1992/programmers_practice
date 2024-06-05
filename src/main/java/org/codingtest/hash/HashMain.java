@@ -24,5 +24,10 @@ public class HashMain {
         String[] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"};
         System.out.println("결과 : " + Arrays.toString(오픈_채팅방.solution(record)));
         System.out.println("--------------------해시 8_5_21 오픈 채팅방 End--------------------");
+        System.out.println("--------------------해시 8_5_22 베스트 앨범 Start--------------------");
+        String[] genres = {"classic", "pop", "classic", "classic", "pop"};
+        int[] plays = {500, 600, 150, 800, 2500};
+        System.out.println("결과 : " + Arrays.toString(베스트_앨범.solution(genres, plays)));
+        System.out.println("--------------------해시 8_5_22 베스트 앨범 End--------------------");
     }
 }
