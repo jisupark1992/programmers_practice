@@ -29,5 +29,11 @@ public class HashMain {
         int[] plays = {500, 600, 150, 800, 2500};
         System.out.println("결과 : " + Arrays.toString(베스트_앨범.solution(genres, plays)));
         System.out.println("--------------------해시 8_5_22 베스트 앨범 End--------------------");
+        System.out.println("--------------------해시 8_5_23 신고 결과 받기 Start--------------------");
+        String[] id_list = {"muzi", "frodo", "apeach", "neo"};
+        String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
+        int k = 2;
+        System.out.println("결과 : " + Arrays.toString(신고_결과_받기.solution(id_list, report, k)));
+        System.out.println("--------------------해시 8_5_23 신고 결과 받기 End--------------------");
     }
 }
