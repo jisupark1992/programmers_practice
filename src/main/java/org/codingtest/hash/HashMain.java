@@ -35,5 +35,10 @@ public class HashMain {
         int k = 2;
         System.out.println("결과 : " + Arrays.toString(신고_결과_받기.solution(id_list, report, k)));
         System.out.println("--------------------해시 8_5_23 신고 결과 받기 End--------------------");
+        System.out.println("--------------------해시 8_5_24 메뉴 리뉴얼 Start--------------------");
+        String[] orders = {"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"};
+        int[] course = {2,3,4};
+        System.out.println("결과 : " + Arrays.toString(메뉴_리뉴얼.solution(orders, course)));
+        System.out.println("--------------------해시 8_5_24 메뉴 리뉴얼 End--------------------");
     }
 }
