@@ -8,5 +8,9 @@ public class TreeMain {
         int[] nodes = {1, 2, 3, 4, 5, 6, 7};
         System.out.println("결과 : " + Arrays.toString(트리_순회.solution(nodes)));
         System.out.println("--------------------트리 9_4_25 트리 순회 End--------------------");
+        System.out.println("--------------------트리 9_5_26 예상 대진표 Start--------------------");
+        int n = 8, a = 4, b = 7;
+        System.out.println("결과 : " + 예상_대진표.solution(n, a, b));
+        System.out.println("--------------------트리 9_5_26 예상 대진표 End--------------------");
     }
 }
