@@ -19,5 +19,10 @@ public class TreeMain {
         int[] amount = {12, 4, 2, 5, 10};
         System.out.println("결과 : " + Arrays.toString(다단계_칫솔_판매.solution(enroll, referral, seller, amount)));
         System.out.println("--------------------트리 9_5_27 다단계 칫솔 판매 End--------------------");
+        System.out.println("--------------------트리 9_5_28 양과 늑대 Start--------------------");
+        int[] info = {0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1};
+        int[][] edges = {{0, 1}, {1, 2}, {1, 4}, {0, 8}, {8, 7}, {9, 10}, {9, 11}, {4, 3}, {6, 5}, {4, 6}, {8, 9}};
+        System.out.println("결과 : " + 양과_늑대.solution(info, edges));
+        System.out.println("--------------------트리 9_5_28 양과 늑대 End--------------------");
     }
 }
