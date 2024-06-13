@@ -24,5 +24,9 @@ public class TreeMain {
         int[][] edges = {{0, 1}, {1, 2}, {1, 4}, {0, 8}, {8, 7}, {9, 10}, {9, 11}, {4, 3}, {6, 5}, {4, 6}, {8, 9}};
         System.out.println("결과 : " + 양과_늑대.solution(info, edges));
         System.out.println("--------------------트리 9_5_28 양과 늑대 End--------------------");
+        System.out.println("--------------------트리 9_5_29 길 찾기 게임 Start--------------------");
+        int[][] nodeInfo = {{5, 3}, {11, 5}, {13, 3}, {3, 5}, {6, 1}, {1, 3}, {8, 6}, {7, 2}, {2, 2}};
+        System.out.println("결과 : " + Arrays.deepToString(길_찾기_게임.solution(nodeInfo)));
+        System.out.println("--------------------트리 9_5_29 길 찾기 게임 End--------------------");
     }
 }
