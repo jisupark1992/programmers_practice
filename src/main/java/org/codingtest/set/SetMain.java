@@ -13,7 +13,7 @@ public class SetMain {
         System.out.println("결과 : " + 폰켓몬.solution(nums));
         System.out.println("--------------------집합 10_4_31 폰켓몬 End----------------------");
         System.out.println("--------------------집합 10_4_32 영어 끝말잇기 Start--------------------");
-        int n = 3;`
+        int n = 3;
         String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
         System.out.println("결과 : " + Arrays.toString(영어_끝말잇기.solution(n, words)));
         System.out.println("--------------------집합 10_4_32 영어 끝말잇기 End----------------------");
