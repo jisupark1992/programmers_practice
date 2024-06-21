@@ -49,7 +49,7 @@ public class 너비_우선_탐색_순회 {
     }
 
     public static int[] solution(int[][] graph, int start, int n) {
-        adjList = new ArrayList[n - 1];
+        adjList = new ArrayList[n + 1];
         for (int i = 0; i < adjList.length; i++) {
             adjList[i] = new ArrayList<>();
         }
@@ -59,7 +59,7 @@ public class 너비_우선_탐색_순회 {
         }
 
         // 1. 방문 여부를 저장할 배열
-        visited = new boolean[n - 1];
+        visited = new boolean[n + 1];
         answer = new ArrayList<>();
         bfs(start); // 8. 시작 노드에서 너비 우선 탐색 시작
 
