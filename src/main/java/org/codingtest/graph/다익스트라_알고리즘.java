@@ -18,7 +18,9 @@ public class 다익스트라_알고리즘 {
     *
     *   - 시간 복잡도 분석
     *   노드의 개수를 N, 간선의 개수를 E라고 하겠습니다. dist 배열을 초기화할 떄의 시간 복잡도는 O(N)입니다. 반복문을 보면 현재 노드의
-    *   
+    *   거리가 우선순위 큐에서 가져온 거리보다 작으면 무시하고 이 연산은 최대 N번 수행하므로 시간 복잡도는 O(N * logN)입니다. 이후 최단
+    *   거리를 갱신하는 동작은 최대 E번 수행하므로 시간 복잡도는 O(E * logN)입니다. 여기까지가 다익스트라 알고리즘 동작이고, 시간 복잡도를
+    *   종합하여 계산하면 O((N + E)logN)입니다.
     */
 
     // 노드의 정보(노드 번호와 거리)를 쌍으로 저장할 클래스 생성
@@ -67,7 +69,7 @@ public class 다익스트라_알고리즘 {
             for (Node next : adjList[now.dest]) {
                 // 9. 기존에 발견했던 거리보다 더 짧은 거리를 발견하면 거리 값을 갱신하고 큐에 넣음
                 if (dist[next.dest] > now.cost + next.cost) {
-                    dist[next.dest] = now.cost = next.cost;
+                    dist[next.dest] = now.cost + next.cost;
                     pq.add(new Node(next.dest, dist[next.dest]));
                 }
             }
