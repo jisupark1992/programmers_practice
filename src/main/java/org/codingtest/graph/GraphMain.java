@@ -19,5 +19,9 @@ public class GraphMain {
         n = 3;
         System.out.println("결과 : " + Arrays.toString(다익스트라_알고리즘.solution(graph, start, n)));
         System.out.println("--------------------그래프 11_4_36 다익스트라 알고리즘 End----------------------");
+        System.out.println("--------------------그래프 11_5_37 게임 맵 최단 거리 Start--------------------");
+        int[][] maps = {{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 1}, {0, 0, 0, 0, 1}};
+        System.out.println("결과 : " + 게임_맵_최단_거리.solution(maps));
+        System.out.println("--------------------그래프 11_5_37 게임 맵 최단 거리 End----------------------");
     }
 }
