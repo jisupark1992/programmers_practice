@@ -23,5 +23,9 @@ public class GraphMain {
         int[][] maps = {{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 1}, {0, 0, 0, 0, 1}};
         System.out.println("결과 : " + 게임_맵_최단_거리.solution(maps));
         System.out.println("--------------------그래프 11_5_37 게임 맵 최단 거리 End----------------------");
+        System.out.println("--------------------그래프 11_5_38 네트워크 Start--------------------");
+        int[][] computers = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
+        System.out.println("결과 : " + 네트워크.solution(n, computers));
+        System.out.println("--------------------그래프 11_5_38 네트워크 End----------------------");
     }
 }
