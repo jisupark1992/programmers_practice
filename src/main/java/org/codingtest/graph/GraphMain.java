@@ -27,5 +27,9 @@ public class GraphMain {
         int[][] computers = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
         System.out.println("결과 : " + 네트워크.solution(n, computers));
         System.out.println("--------------------그래프 11_5_38 네트워크 End----------------------");
+        System.out.println("--------------------그래프 11_5_39 미로 탈출 Start--------------------");
+        String[] strMaps = {"SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"};
+        System.out.println("결과 : " + 미로_탈출.solution(strMaps));
+        System.out.println("--------------------그래프 11_5_39 미로 탈출 End----------------------");
     }
 }
