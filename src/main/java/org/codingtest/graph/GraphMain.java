@@ -31,5 +31,10 @@ public class GraphMain {
         String[] strMaps = {"SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"};
         System.out.println("결과 : " + 미로_탈출.solution(strMaps));
         System.out.println("--------------------그래프 11_5_39 미로 탈출 End----------------------");
+        System.out.println("--------------------그래프 11_5_40 배달 Start--------------------");
+        int N = 5, K = 3;
+        int[][] road = {{1, 2, 1}, {2, 3, 3}, {5, 2, 2}, {1, 4, 2}, {5, 3, 1}, {5, 4, 2}};
+        System.out.println("결과 : " + 배달.solution(N, road, K));
+        System.out.println("--------------------그래프 11_5_40 배달 End----------------------");
     }
 }
