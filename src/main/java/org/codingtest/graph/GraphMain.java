@@ -36,5 +36,9 @@ public class GraphMain {
         int[][] road = {{1, 2, 1}, {2, 3, 3}, {5, 2, 2}, {1, 4, 2}, {5, 3, 1}, {5, 4, 2}};
         System.out.println("결과 : " + 배달.solution(N, road, K));
         System.out.println("--------------------그래프 11_5_40 배달 End----------------------");
+        System.out.println("--------------------그래프 11_5_41 경주로 건설 Start--------------------");
+        int[][] board = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+        System.out.println("결과 : " + 경주로_건설.solution(board));
+        System.out.println("--------------------그래프 11_5_41 경주로 건설 End----------------------");
     }
 }
