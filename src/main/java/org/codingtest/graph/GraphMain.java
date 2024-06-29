@@ -40,5 +40,10 @@ public class GraphMain {
         int[][] board = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
         System.out.println("결과 : " + 경주로_건설.solution(board));
         System.out.println("--------------------그래프 11_5_41 경주로 건설 End----------------------");
+        System.out.println("--------------------그래프 11_5_42 전력망을 둘로 나누기 Start--------------------");
+        n = 9;
+        int[][] wires = {{1, 3}, {2, 3}, {3, 4}, {4, 5}, {4, 6}, {4, 7}, {7, 8}, {7, 9}};
+        System.out.println("결과 : " + 전력망을_둘로_나누기.solution(n, wires));
+        System.out.println("--------------------그래프 11_5_42 전력망을 둘로 나누기 End----------------------");
     }
 }
