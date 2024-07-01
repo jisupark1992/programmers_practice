@@ -33,7 +33,7 @@ public class 스도쿠_퍼즐 {
 
     private static boolean inRow(int num, int row) {
         // 2. 해당 행에 num이 있는지 확인
-        return Arrays.stream(Borad[row]).allMatch(n -> n == num);
+        return Arrays.stream(Borad[row]).anyMatch(n -> n == num);
     }
 
     private static boolean inCol(int num, int col) {
@@ -76,7 +76,7 @@ public class 스도쿠_퍼즐 {
         return null;
     }
 
-    private static boolean findSolutin() {
+    private static boolean findSolution() {
         // 6. 비어 있는 위치에 가능한 숫자를 넣어가며 스도쿠 해결
         Block emptyPos = findEmptyPosition();
         // 7. 빈칸이 없으면 스도쿠가 해결된 것으로 간주
@@ -91,7 +91,7 @@ public class 스도쿠_퍼즐 {
             if (isVaild(num, row, col)) {
                 Borad[row][col] = num;
                 // 8. 다음 빈칸을 채워 탐색
-                if (findSolutin()) {
+                if (findSolution()) {
                     return true;
                 }
                 // 9. 가능한 숫자가 없으면 원래의 0으로 되돌림
@@ -104,7 +104,7 @@ public class 스도쿠_퍼즐 {
 
     public static int[][] solution(int[][] borad) {
         Borad = borad;
-        findSolutin();
+        findSolution();
         return borad;
     }
 }
