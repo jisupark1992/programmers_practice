@@ -21,5 +21,10 @@ public class BacktrackingMain {
                 {0, 0, 0, 0, 8, 0, 0, 7, 9}};
         System.out.println("결과 : " + Arrays.deepToString(스도쿠_퍼즐.solution(board)));
         System.out.println("--------------------백트래킹 12_2_44 스도쿠 퍼즐 End----------------------");
+        System.out.println("--------------------백트래킹 12_3_45 피로도 Start--------------------");
+        int k = 80;
+        int[][] dungeons = {{80, 20}, {50, 40}, {30, 10}};
+        System.out.println("결과 : " + 피로도.solution(k, dungeons));
+        System.out.println("--------------------백트래킹 12_3_45 피로도 End----------------------");
     }
 }
