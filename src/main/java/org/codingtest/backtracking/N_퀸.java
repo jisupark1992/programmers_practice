@@ -43,8 +43,8 @@ public class N_퀸 {
     public static int solution(int n) {
         N = n;
         width = new boolean[n];
-        diagonal1 = new boolean[n + 2];
-        diagonal2 = new boolean[n + 2];
+        diagonal1 = new boolean[n * 2];
+        diagonal2 = new boolean[n * 2];
         int answer = getAns(0);
         return answer;
     }

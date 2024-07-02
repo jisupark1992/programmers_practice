@@ -26,5 +26,9 @@ public class BacktrackingMain {
         int[][] dungeons = {{80, 20}, {50, 40}, {30, 10}};
         System.out.println("결과 : " + 피로도.solution(k, dungeons));
         System.out.println("--------------------백트래킹 12_3_45 피로도 End----------------------");
+        System.out.println("--------------------백트래킹 12_3_46 N-퀸 Start--------------------");
+        int n = 4;
+        System.out.println("결과 : " + N_퀸.solution(n));
+        System.out.println("--------------------백트래킹 12_3_46 N-퀸 End----------------------");
     }
 }
