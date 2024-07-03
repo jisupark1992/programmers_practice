@@ -30,5 +30,10 @@ public class BacktrackingMain {
         int n = 4;
         System.out.println("결과 : " + N_퀸.solution(n));
         System.out.println("--------------------백트래킹 12_3_46 N-퀸 End----------------------");
+        System.out.println("--------------------백트래킹 12_3_47 양궁 대회 Start--------------------");
+        n = 5;
+        int[] info = {2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0};
+        System.out.println("결과 : " + Arrays.toString(양궁_대회.solution(n, info)));
+        System.out.println("--------------------백트래킹 12_3_47 양궁 대회 End----------------------");
     }
 }
