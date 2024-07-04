@@ -37,17 +37,17 @@ public class 외벽_점검 {
     // 1. dist 배열의 친구들로 모든 외벽이 점검 가능한지 확인
     private static boolean check(int[] dist) {
         // 2. 점검을 시작하는 외벽을 0 부터 length 까지 전부 확인함
-        for (int i =0; i < length; i++) {
+        for (int i = 0; i < length; i++) {
             int idx = i;
             // 3. 각 친구가 점검 가능한 외벽을 모두 점검하여 진행
             for (int distance : dist) {
                 int position = Weak[idx++] + distance;
                 while (idx < Weak.length && Weak[idx] <= position) {
-                    idx ++;
+                    idx++;
                 }
             }
             // 4. 모든 외벽을 점검 가능하면 true 반환
-            if (idx - 1 >= length) {
+            if (idx - i >= length) {
                 return true;
             }
         }
