@@ -35,5 +35,11 @@ public class BacktrackingMain {
         int[] info = {2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0};
         System.out.println("결과 : " + Arrays.toString(양궁_대회.solution(n, info)));
         System.out.println("--------------------백트래킹 12_3_47 양궁 대회 End----------------------");
+        System.out.println("--------------------백트래킹 12_3_48 외벽 점검 Start--------------------");
+        n = 12;
+        int[] weak = {1, 5, 6, 10};
+        int[] dist = {1, 2, 3, 4};
+        System.out.println("결과 : " + 외벽_점검.solution(n, weak, dist));
+        System.out.println("--------------------백트래킹 12_3_48 외벽 점검 End----------------------");
     }
 }
