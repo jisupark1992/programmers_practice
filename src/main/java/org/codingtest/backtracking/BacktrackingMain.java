@@ -41,5 +41,11 @@ public class BacktrackingMain {
         int[] dist = {1, 2, 3, 4};
         System.out.println("결과 : " + 외벽_점검.solution(n, weak, dist));
         System.out.println("--------------------백트래킹 12_3_48 외벽 점검 End----------------------");
+        System.out.println("--------------------백트래킹 12_3_49 사라지는 발판 Start--------------------");
+        int[][] board2 = {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}};
+        int[] aloc = {1, 0};
+        int[] bloc = {1, 2};
+        System.out.println("결과 : " + 사라지는_발판.solution(board2, aloc, bloc));
+        System.out.println("--------------------백트래킹 12_3_49 사라지는 발판 End----------------------");
     }
 }
