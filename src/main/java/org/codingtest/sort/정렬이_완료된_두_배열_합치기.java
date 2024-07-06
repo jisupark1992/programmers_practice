@@ -24,6 +24,9 @@ public class 정렬이_완료된_두_배열_합치기 {
 
         // arr1 이나 arr2 중 남아 있는 원소들을 정렬된 배열 뒤에 추가
         while (i < arr1.length) {
+            merged[k++] = arr1[i++];
+        }
+        while (j < arr2.length) {
             merged[k++] = arr2[j++];
         }
 
