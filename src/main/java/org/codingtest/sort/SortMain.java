@@ -12,6 +12,10 @@ public class SortMain {
         int[] arr1 = {1, 3, 5}, arr2 = {2, 4, 6};
         System.out.println("결과 : " + Arrays.toString(정렬이_완료된_두_배열_합치기.solution(arr1, arr2)));
         System.out.println("--------------------정렬 13_2_51 정렬이 완료된 두 배열 합치기 End----------------------");
-
+        System.out.println("--------------------정렬 13_3_52 문자열 내 마음대로 정렬하기 Start--------------------");
+        String[] strings = {"sun", "bed", "car"};
+        int n = 1;
+        System.out.println("결과 : " + Arrays.toString(문자열_내_마음대로_정렬하기.solution(strings, n)));
+        System.out.println("--------------------정렬 13_3_52 문자열 내 마음대로 정렬하기 End----------------------");
     }
 }
