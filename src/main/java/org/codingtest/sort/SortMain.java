@@ -21,5 +21,10 @@ public class SortMain {
         n = 118372;
         System.out.println("결과 : " + 정수_내림차순으로_배치하기.solution(n));
         System.out.println("--------------------정렬 13_3_53 정수 내림차순으로 배치하기 End----------------------");
+        System.out.println("--------------------정렬 13_4_54 K번째 수 Start--------------------");
+        int[] array = {1, 5, 2, 6, 3, 7, 4};
+        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+        System.out.println("결과 : " + Arrays.toString(K번째_수.solution(array, commands)));
+        System.out.println("--------------------정렬 13_4_54 K번째 수 End----------------------");
     }
 }

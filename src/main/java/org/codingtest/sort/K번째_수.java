@@ -24,7 +24,7 @@ public class K번째_수 {
     */
 
     public static int[] solution(int[] array, int[][] commands) {
-        int[] answer = new int[array.length];
+        int[] answer = new int[commands.length];
 
         for (int c = 0; c < commands.length; c++) {
             int i = commands[c][0];
