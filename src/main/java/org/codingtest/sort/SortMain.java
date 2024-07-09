@@ -26,5 +26,9 @@ public class SortMain {
         int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
         System.out.println("결과 : " + Arrays.toString(K번째_수.solution(array, commands)));
         System.out.println("--------------------정렬 13_4_54 K번째 수 End----------------------");
+        System.out.println("--------------------정렬 13_4_55 가장 큰 수 Start--------------------");
+        int numbers[] = {6, 10, 2};
+        System.out.println("결과 : " + 가장_큰_수.solution(numbers));
+        System.out.println("--------------------정렬 13_4_55 가장 큰 수 End----------------------");
     }
 }
