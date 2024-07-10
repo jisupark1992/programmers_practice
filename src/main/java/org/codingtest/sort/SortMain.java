@@ -30,5 +30,9 @@ public class SortMain {
         int numbers[] = {6, 10, 2};
         System.out.println("결과 : " + 가장_큰_수.solution(numbers));
         System.out.println("--------------------정렬 13_4_55 가장 큰 수 End----------------------");
+        System.out.println("--------------------정렬 13_4_56 튜플 Start--------------------");
+        s = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
+        System.out.println("결과 : " + Arrays.toString(튜플.solution(s)));
+        System.out.println("--------------------정렬 13_4_56 튜플 End----------------------");
     }
 }
