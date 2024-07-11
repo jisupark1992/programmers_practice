@@ -34,5 +34,10 @@ public class SortMain {
         s = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
         System.out.println("결과 : " + Arrays.toString(튜플.solution(s)));
         System.out.println("--------------------정렬 13_4_56 튜플 End----------------------");
+        System.out.println("--------------------정렬 13_4_57 지형 이동 Start--------------------");
+        int[][] land = {{1, 4, 8, 10}, {5, 5, 5, 5}, {10, 10, 10, 10}, {10, 10, 10, 20}};
+        int height = 3;
+        System.out.println("결과 : " + 지형_이동.solution(land, height));
+        System.out.println("--------------------정렬 13_4_57 지형 이동 End----------------------");
     }
 }
