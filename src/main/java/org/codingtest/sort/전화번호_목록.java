@@ -1,6 +1,7 @@
 package org.codingtest.sort;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class 전화번호_목록 {
 
@@ -35,6 +36,22 @@ public class 전화번호_목록 {
         }
 
         // 3. 모든 전화번호를 비교한 후에도 반환되지 않았다면, 접두어가 없는 경우이므로 true 반환
+        return true;
+    }
+
+    public static boolean hashSolution(String[] phone_book) {
+        // phone_book 배열의 값을 해시셋에 저장
+        HashSet<String> set = new HashSet<>(Arrays.asList(phone_book));
+
+        for (String s : phone_book) {
+            // 현재 String s보다 길이가 더 짧은 String이 set에 있는지 확인
+            for (int i = 1; i < s.length(); i++) {
+                if (set.contains(s.substring(0, i))) {
+                    return false;
+                }
+            }
+        }
+
         return true;
     }
 }
