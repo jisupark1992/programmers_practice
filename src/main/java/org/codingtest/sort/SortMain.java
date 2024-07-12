@@ -39,5 +39,9 @@ public class SortMain {
         int height = 3;
         System.out.println("결과 : " + 지형_이동.solution(land, height));
         System.out.println("--------------------정렬 13_4_57 지형 이동 End----------------------");
+        System.out.println("--------------------정렬 13_4_58 전화번호 목록 Start--------------------");
+        String[] phone_book = {"119", "97674223", "1195524421"};
+        System.out.println("결과 : " + 전화번호_목록.solution(phone_book));
+        System.out.println("--------------------정렬 13_4_58 전화번호 목록 End----------------------");
     }
 }
