@@ -14,5 +14,9 @@ public class SimulationMain {
         int[][] matrix2 = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
         System.out.println("결과 : " + Arrays.deepToString(두_행렬을_곱한_후_전치_행렬_만들기.solution(matrix1, matrix2)));
         System.out.println("--------------------시뮬레이션 14_2_60 두 행렬을 곱한 후 전치 행렬 만들기 End----------------------");
+        System.out.println("--------------------시뮬레이션 14_2_61 달팽이 수열 만들기 Start--------------------");
+        n = 3;
+        System.out.println("결과 : " + Arrays.deepToString(달팽이_수열_만들기.solution(n)));
+        System.out.println("--------------------시뮬레이션 14_2_61 달팽이 수열 만들기 End----------------------");
     }
 }
