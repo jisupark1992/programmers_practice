@@ -18,5 +18,9 @@ public class SimulationMain {
         n = 3;
         System.out.println("결과 : " + Arrays.deepToString(달팽이_수열_만들기.solution(n)));
         System.out.println("--------------------시뮬레이션 14_2_61 달팽이 수열 만들기 End----------------------");
+        System.out.println("--------------------시뮬레이션 14_3_62 이진 변환 반복하기 Start--------------------");
+        String s = "110010101001";
+        System.out.println("결과 : " + Arrays.toString(이진_변환_반복하기.solution(s)));
+        System.out.println("--------------------시뮬레이션 14_3_62 이진 변환 반복하기 End----------------------");
     }
 }
