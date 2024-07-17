@@ -22,5 +22,9 @@ public class SimulationMain {
         String s = "110010101001";
         System.out.println("결과 : " + Arrays.toString(이진_변환_반복하기.solution(s)));
         System.out.println("--------------------시뮬레이션 14_3_62 이진 변환 반복하기 End----------------------");
+        System.out.println("--------------------시뮬레이션 14_3_63 롤케이크 자르기 Start--------------------");
+        int[] topping = {1, 2, 1, 3, 1, 4, 1, 2};
+        System.out.println("결과 : " + 롤케이크_자르기.solution(topping));
+        System.out.println("--------------------시뮬레이션 14_3_63 롤케이크 자르기 End----------------------");
     }
 }

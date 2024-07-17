@@ -23,8 +23,8 @@ public class 롤케이크_자르기 {
      *   2. 1 <= topping의 원소 <= 10,000
      *
      *   - 시간 복잡도 분석
-     *   N은 주어진 수입니다. while문에서 N이 1이 될 때까지 2로 나누므로 시간 복잡도는 O(logN)입니다. 그리고 s.replace()를 호출할 때
-     *   필요한 시간 복잡도는 O(N)입니다. 따라서 최종 시간 복잡도는 O(NlogN)입니다.
+     *   N은 topping의 길이입니다. topping의 길이만큼 반복문을 수행하므로 시간 복잡도는 O(N)입니다. 참고로 내부 연산들은 모두 O(1)입니다.
+     *   따라서 최종 시간 복잡도는 O(N)입니다.
      */
 
     public static int solution(int[] topping) {
