@@ -26,5 +26,9 @@ public class SimulationMain {
         int[] topping = {1, 2, 1, 3, 1, 4, 1, 2};
         System.out.println("결과 : " + 롤케이크_자르기.solution(topping));
         System.out.println("--------------------시뮬레이션 14_3_63 롤케이크 자르기 End----------------------");
+        System.out.println("--------------------시뮬레이션 14_3_64 카펫 Start--------------------");
+        int brown = 10, yellow = 2;
+        System.out.println("결과 : " + Arrays.toString(카펫.solution(brown, yellow)));
+        System.out.println("--------------------시뮬레이션 14_3_64 카펫 End----------------------");
     }
 }
