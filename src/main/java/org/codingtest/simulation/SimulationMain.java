@@ -30,5 +30,9 @@ public class SimulationMain {
         int brown = 10, yellow = 2;
         System.out.println("결과 : " + Arrays.toString(카펫.solution(brown, yellow)));
         System.out.println("--------------------시뮬레이션 14_3_64 카펫 End----------------------");
+        System.out.println("--------------------시뮬레이션 14_3_65 점프와 순간 이동 Start--------------------");
+        n = 5;
+        System.out.println("결과 : " + 점프와_순간_이동.solution(n));
+        System.out.println("--------------------시뮬레이션 14_3_65 점프와 순간 이동 End----------------------");
     }
 }
