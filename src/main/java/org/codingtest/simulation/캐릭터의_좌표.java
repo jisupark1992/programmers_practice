@@ -21,8 +21,8 @@ public class 캐릭터의_좌표 {
      *   7. keyinput은 항상 up, down, left, right만 주어집니다.
      *
      *   - 시간 복잡도 분석
-     *   N은 입력으로 주어진 숫자입니다. N을 이진수로 변환할 때 시간 복잡도는 O(logN)입니다. 변환된 문자열의 길이는 최대 logN이므로
-     *   문자열에서 "1"을 셀 때의 시간 복잡도는 O(logN)입니다. 따라서 최종 시간 복잡도는 O(logN)입니다.
+     *   N은 keyinput의 길이입니다. 반복분은 keyinput 길이만큼 반복하고, 내부 연산은 모두 시간 복잡도가 O(1)입니다. 따라서 최종 시간
+     *   복잡도는 O(N)입니다.
      */
 
     private static int width, height;

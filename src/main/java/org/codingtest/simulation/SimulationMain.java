@@ -34,5 +34,10 @@ public class SimulationMain {
         n = 5;
         System.out.println("결과 : " + 점프와_순간_이동.solution(n));
         System.out.println("--------------------시뮬레이션 14_3_65 점프와 순간 이동 End----------------------");
+        System.out.println("--------------------시뮬레이션 14_3_66 캐릭터의 좌표 Start--------------------");
+        String[] keyinput = {"left", "right", "up", "right", "right"};
+        int[] board = {11, 21};
+        System.out.println("결과 : " + Arrays.toString(캐릭터의_좌표.solution(keyinput, board)));
+        System.out.println("--------------------시뮬레이션 14_3_66 캐릭터의 좌표 End----------------------");
     }
 }
