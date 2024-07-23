@@ -10,5 +10,9 @@ public class DynamicProgrammingMain {
         int[] nums = {1, 4, 2, 3, 1, 5, 7, 3};
         System.out.println("결과 : " + LIS길이_계산하기.solution(nums));
         System.out.println("--------------------동적 계획법 15_2_68 LIS 길이 계산하기 End----------------------");
+        System.out.println("--------------------동적 계획법 15_2_69 조약돌 문제 Start--------------------");
+        int[][] arr = {{1, 3, 3, 2}, {2, 1, 4, 1}, {1, 5, 2, 3}};
+        System.out.println("결과 : " + 조약돌_문제.solution(arr));
+        System.out.println("--------------------동적 계획법 15_2_69 조약돌 문제 End----------------------");
     }
 }
