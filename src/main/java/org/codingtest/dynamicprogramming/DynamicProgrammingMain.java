@@ -14,5 +14,9 @@ public class DynamicProgrammingMain {
         int[][] arr = {{1, 3, 3, 2}, {2, 1, 4, 1}, {1, 5, 2, 3}};
         System.out.println("결과 : " + 조약돌_문제.solution(arr));
         System.out.println("--------------------동적 계획법 15_2_69 조약돌 문제 End----------------------");
+        System.out.println("--------------------동적 계획법 15_3_70 피보나치 수 Start--------------------");
+        int n = 3;
+        System.out.println("결과 : " + 피보나치_수.solution(n));
+        System.out.println("--------------------동적 계획법 15_3_70 피보나치 수 End----------------------");
     }
 }
