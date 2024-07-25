@@ -18,5 +18,9 @@ public class DynamicProgrammingMain {
         int n = 3;
         System.out.println("결과 : " + 피보나치_수.solution(n));
         System.out.println("--------------------동적 계획법 15_3_70 피보나치 수 End----------------------");
+        System.out.println("--------------------동적 계획법 15_3_71 2 x n타일링 Start--------------------");
+        n = 4;
+        System.out.println("결과 : " + Nx2타일링.solution(n));
+        System.out.println("--------------------동적 계획법 15_3_71 2 x n타일링 End----------------------");
     }
 }
